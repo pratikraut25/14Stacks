@@ -1,7 +1,7 @@
 package com.Bridgelabz.stacks;
 
 public class Stack <T> {
-    private static LinkedList  LinkedList;
+ private static LinkedList LinkedList;
 
     public Stack() {
         LinkedList = new LinkedList<>();
@@ -13,8 +13,8 @@ public class Stack <T> {
         return LinkedList.head;
 
     }
-    public Node<T> pop(){
-        return (Node<T>) LinkedList.pop();
+    public static Node  pop(){
+        return (Node) LinkedList.pop();
     }
     public static void printStack(){
         LinkedList.show();

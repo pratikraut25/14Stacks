@@ -48,6 +48,4 @@ public class LinkedListMain {
              System.out.println("Unsuccessfully!!");
          list2.show();
      }
-	
-
 }

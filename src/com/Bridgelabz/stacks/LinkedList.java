@@ -1,7 +1,7 @@
 package com.Bridgelabz.stacks;
 
 public class LinkedList <T> {
-	public Node<T> head;
+    public Node<T> head;
     public Node<T> tail;
 
     public void push(T data) {
@@ -97,5 +97,5 @@ public class LinkedList <T> {
     public String toString() {
         return "LinkedList{" +
                 "head=" + head + '}';
-}
+    }
 }
